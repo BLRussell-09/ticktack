@@ -8,7 +8,7 @@ class Square extends React.Component
   {
     const squareClick = () =>
     {
-      alert('Click');
+      this.props.onClick()
     }
 
     return (
